@@ -42,7 +42,7 @@ nav {
     margin-right: 5%;
 }
 
-.nav-list .list {
+.nav-list li {
     font-size: 1.2rem;
     margin-left: 5%;
     list-style: none;
@@ -50,12 +50,12 @@ nav {
     transition: 0.6s;
 }
 
-.portfolio-li {
+li:nth-child(4) {
     color: #000;
     font-weight: bold;
 }
 
-.nav-list .list:hover {
+.nav-list li:hover {
     font-weight: bold;
     color: #000;
     transform: scale(1.3);
